@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -10,6 +12,7 @@ body {
     background-position: center;
     box-sizing: border-box;
     font-family: sans-serif;
+    overflow-x:hidden;
 }
 
 .menu-bar {
@@ -36,8 +39,10 @@ body {
 
 .active,
 .menu-bar ul li:hover {
+    transition: 0.5s;
     background: #C4A484;
     border-radius: 3px;
+    box-shadow: 0 0 20px #C4A484;
 }
 
 .menu-bar .fa {
@@ -58,6 +63,9 @@ body {
     width: 400px;
     background-color: grey;
     border-radius: 25px;
+    margin: 50px;
+    position: relative;
+    left: 100px;
 }
 
 .Text3 h2 {
@@ -89,4 +97,16 @@ body {
 .btn:hover {
     background-color: #fff;
     color: #000;
+}
+h2{
+
+    position: relative;
+    left: 600px;
+    margin: 30px;
+    font-family:'Bungee Inline',cursive;
+    font-size: 32px;
+}
+.menu-bar{
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
 }
